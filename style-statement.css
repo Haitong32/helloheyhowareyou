@@ -39,7 +39,7 @@ position: relative;
   width:100%;
   background-color: white;
   position:fixed;
-  margin-top: -5%;
+  margin-top: -3.5%;
   z-index: 499;
 }
 #chinesediv{
@@ -63,7 +63,7 @@ position: relative;
   color:black;
   position: fixed;
   z-index: 500;
-  transform: translateY(-70%);
+  transform: translateY(-18%);
 }
 
 #haitong{
@@ -126,15 +126,7 @@ filter: drop-shadow(0px 0px 3px blue);
   margin-top: 2%;
   width: 83.33%;
 }
-.year{
-  color:blue;
-  font-weight: 400;
-  font-size:300%;
-  margin-top: 2%;
-  width: 16.66%;
-  margin-bottom: 8%;
-  transform: translateY(5%);
-}
+
 
 
 
@@ -184,12 +176,37 @@ filter: drop-shadow(0px 0px 3px blue);
 .home-photo{
  float:left;
  width:75%;
- margin-bottom: 5%;
+ margin-bottom: 1.5%;
+}
+.about{
+  color:black;
+  font-weight: 400;
+  font-size:300%;
+  margin-top: 2%;
+  width: 83.33%;
+  margin-bottom: 8%;
+  transform: translateY(5%);
+  display: inline-block;
+}
+#aboutImg{
+  margin-top: 5%;
 }
 
-
-
-
+.intro{
+  font-weight: 600;
+  font-size: 120%;
+  color:black;
+  float: left;
+  width: 41.66%;
+  display: inline-block;
+}
+.intro a{
+  color:blue;
+}
+.intro a:hover{
+  color:red;
+  cursor: pointer;
+}
 
 
 /* @media screen and (max-width: 500px){

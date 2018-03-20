@@ -2,72 +2,32 @@ $(document).ready(function(){
   // $('body').css('display', 'none');
   // $('body').fadeIn(1000);
 $("#chinese").hide();
+$("#video-1").hide();
+$("#video-2").hide();
+$("#video-3").hide();
+$("#video-4").hide();
+$("#video-5").hide();
+$("#video-6").hide();
+// $("#img1-2").hide();
   $( "#gif2" ).click(function() {
     $(".photofeed").toggle();
+    $("#headimg").toggle();
     $("#chinese").toggle();
   });
   $( "#gif1" ).click(function() {
-        $('body').toggleClass('bgimg');
+      $('body').toggleClass('bgimg');
     });
-  $("#img1").hover(function(){
-    $(".work").not("#work1").toggle();
-    $(".work").toggleClass("bgwhite")
-  });
-  $("#img2").hover(function(){
-    $(".work").not("#work2").toggle();
-    $(".work").toggleClass("bgwhite")
-  });
-  $("#img3").hover(function(){
-    $(".work").not("#work3").toggle();
-    $(".work").toggleClass("bgwhite")
-  });
-  $("#img4").hover(function(){
-    $(".work").not("#work4").toggle();
-    $(".work").toggleClass("bgwhite")
-  });
-  $("#img5").hover(function(){
-    $(".work").not("#work5").toggle();
-    $(".work").toggleClass("bgwhite")
-  });
-  $("#img6").hover(function(){
-    $(".work").not("#work6").toggle();
-    $(".work").toggleClass("bgwhite")
-  });
-  $("#img7").hover(function(){
-    $(".work").not("#work7").toggle();
-    $(".work").toggleClass("bgwhite")
-  });
-  $("#img8").hover(function(){
-    $(".work").not("#work8").toggle();
-    $(".work").toggleClass("bgwhite")
-  });
-  $("#img9").hover(function(){
-    $(".work").not("#work9").toggle();
-    $(".work").toggleClass("bgwhite")
-  });
-  $("#img10").hover(function(){
-    $(".work").not("#work10").toggle();
-    $(".work").toggleClass("bgwhite")
-  });
-  $("#img11").hover(function(){
-    $(".work").not("#work11").toggle();
-    $(".work").toggleClass("bgwhite")
-  });
-  $("#img12").hover(function(){
-    $(".work").not("#work12").toggle();
-    $(".work").toggleClass("bgwhite")
-  });
-  $("#img13").hover(function(){
-    $(".work").not("#work13").toggle();
-    $(".work").toggleClass("bgwhite")
-  });
-  $("#img14").hover(function(){
-    $(".work").not("#work14").toggle();
-    $(".work").toggleClass("bgwhite")
-  });
-  $("#img15").hover(function(){
-    $(".work").not("#work15").toggle();
-    $(".work").toggleClass("bgwhite")
-  });
+  $('#play-4').on('click', function(ev) {
+      $("#video-4").toggle();
+      $("#animation4").toggle();
+      $("#video-4")[0].src += "&autoplay=1";
+       ev.preventDefault();
+       });
+  $('#play-5').on('click', function(ev) {
+      $("#video-5").toggle();
+      $("#animation5").toggle();
+      $("#video-5")[0].src += "&autoplay=1";
+       ev.preventDefault();
+      });
 
 });

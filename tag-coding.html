@@ -5,17 +5,20 @@
   <link rel="icon" href="img/icon.png">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="style-tag-coding.css">
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="script-tag-coding.js"></script>
+  <link rel="stylesheet" href="style-home.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="script-home.js"></script>
+
+
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
 </head>
 <body>
   <div class="topbar">
+    <div id="white"></div>
     <div class="col-4">
       <a id="haitong" href="mailto:zhenh522@newschool.edu?Subject=" target="_top">HAITONG ZHENG</a>
     </div>
-    <div class="col-2"id="home">
+    <div class="col-2" id="home">
       <a href="index.html">HOME</a>
     </div>
     <div class="col-1">
@@ -30,37 +33,40 @@
   </div>
   <div class="col-1 taglist">
     <ul id="tags">
-      <li class="tag"><a href="statement.html"><img id="unicorn" src="img/artist.gif">artist<br/>statement</a></li>
-      <li class="tag"><a href="tag-bookdesign.html"> book design</a></li>
-      <li class="tag"><a href="tag-animation.html">animation</a></li>
-      <li class="tag"><a href="tag-photography.html">photography</a></li>
-      <li class="tag"><a href="tag-music.html">music</a></li>
-      <li class="tag"><a href="tag-exhibition.html">exhibition</a></li>
-      <li class="tag"><a href="tag-fashion.html">fashion</a></li>
-      <li class="tag"><a href="tag-interaction.html">interaction</a></li>
+      <li class="tag"><a href="statement.html">Statement</a></li>
+      <li class="tag"><a href="tag-book.html">Book</a></li>
+      <li class="tag"><a href="tag-animation.html">Animation</a></li>
+      <li class="tag"><a href="tag-photography.html">Photography</a></li>
       <li class="tag"><a href="tag-coding.html"><img id="coding" src="img/coding.gif">coding</a></li>
-      <li class="tag"><a href="tag-campaign.html">campaign</a></li>
-      <li class="tag"><a href="tag-girlspower.html">girls power</a></li>
-      <li class="tag"><a href="tag-typography.html">typography</a></li>
-      <li class="tag"><a href="tag-mobileapp.html">Mobile App</a></li>
+      <li class="tag"><a href="tag-campaign.html">Campaign</a></li>
+      <li class="tag"><a href="tag-typography.html">Archive</a></li>
     </ul>
   </div>
     <div id="chinesediv">
       <p id='chinese'>不好意思，<br/>中文网站还在编着呢。。。</p>
     </div>
+    
   <div class="photofeed">
-      <div class="row1">
-       <div class="work" id="work10">
-         <a href="cut.html"><img class="home-photo" id="img10" alt="Mobile Application CUT" src="img/home-cut.png"></a>
-         <div class="workinfo">Mobile Application design and coding: CUT, an easy and fun way to find the hairstyle that fits you most(coding still in progress).</div>
-         <div class="worktitle">CUT</div>
-       </div>
-       <div class="work" id="work15">
-        <a href="mirror.html"><img class="home-photo" id="img15" alt="Mirror Magazine Website" src="img/home-mirror.jpg"></a>
-        <div class="workinfo">Website for Youth Culture Magazine: MiRROR</div>
-        <div class="worktitle">MiRROR</div>
+      <div class="year"><p>2017</p></div>
+      <div class="work" id="work12">
+        <div class="worktitle">CUT
+          <button id="play-4" class="play">PLAY</button>
+        </div>
+        <iframe id="video-4" src="https://player.vimeo.com/video/257176077?portrait=0" width="293" height="570" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <img class="home-photo" id="animation4" alt="Mobile Application CUT" src="img/home-cut.png">
+        <div class="workinfo">Mobile Application(html&Javascript): CUT, an easy and fun application for hair salon service.
+        </br></br>Illustrations by artist Marcus Oakley are incorporated for lively graphics. Simple and bright color palette is used for the same purpose.
+        </div>
       </div>
-     </div>
+
+      <div class="work" id="work13">
+        <div class="worktitle">MiRROR
+          <button id="play-5" class="play">PLAY</button></div>
+        <iframe id="video-5" src="https://player.vimeo.com/video/257174394?portrait=0" width="769" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <img class="home-photo" id="animation5" alt="Mirror Magazine Website" src="img/home-mirror.jpg">
+        <div class="workinfo">MiRRoR Magazine: </br>About Page(html&Javascript)
+        </br></br>MiRRoR Magazine is focused on youth culture, inspired by the discontinued Japanese street fashion magazine. As a young adult, I always want to build up such a media to explore what today's youth is interested in.</div>
+      </div>
   </div>
   <!-- <div class="grid-base">
               <div class="col-1"></div>
