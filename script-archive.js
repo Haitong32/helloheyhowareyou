@@ -1,0 +1,93 @@
+$(document).ready(function(){
+$("#chinese").hide();
+$(".worktitle").hide();
+
+$( "#gif2" ).click(function() {
+  $(".photofeed").toggle();
+  $("#chinese").toggle();
+});
+$( "#gif1" ).click(function() {
+    $('body').toggleClass('bgimg');
+  });
+  $("#img1").hover(function(){
+    $(".work").not("#work1").toggle();
+    $(".work").toggleClass("bgwhite")
+    $("#worktitle1").toggle();
+  });
+  $("#img2").hover(function(){
+    $(".work").not("#work2").toggle();
+    $(".work").toggleClass("bgwhite");
+    $("#worktitle2").toggle();
+  });
+  $("#img3").hover(function(){
+    $(".work").not("#work3").toggle();
+    $(".work").toggleClass("bgwhite");
+    $("#worktitle3").toggle();
+  });
+  $("#img4").hover(function(){
+    $(".work").not("#work4").toggle();
+    $(".work").toggleClass("bgwhite");
+    $("#worktitle4").toggle();
+  });
+  $("#img5").hover(function(){
+    $(".work").not("#work5").toggle();
+    $(".work").toggleClass("bgwhite");
+    $("#worktitle5").toggle();
+  });
+  $("#img6").hover(function(){
+    $(".work").not("#work6").toggle();
+    $(".work").toggleClass("bgwhite");
+    $("#worktitle6").toggle();
+  });
+  $("#img7").hover(function(){
+    $(".work").not("#work7").toggle();
+    $(".work").toggleClass("bgwhite");
+    $("#worktitle7").toggle();
+  });
+  $("#img8").hover(function(){
+    $(".work").not("#work8").toggle();
+    $(".work").toggleClass("bgwhite");
+    $("#worktitle8").toggle();
+  });
+  $("#img9").hover(function(){
+    $(".work").not("#work9").toggle();
+    $(".work").toggleClass("bgwhite");
+    $("#worktitle9").toggle();
+  });
+  $("#img10").hover(function(){
+    $(".work").not("#work10").toggle();
+    $(".work").toggleClass("bgwhite");
+    $("#worktitle10").toggle();
+  });
+  $("#img11").hover(function(){
+    $(".work").not("#work11").toggle();
+    $(".work").toggleClass("bgwhite");
+    $("#worktitle11").toggle();
+  });
+  $("#img12").hover(function(){
+    $(".work").not("#work12").toggle();
+    $(".work").toggleClass("bgwhite");
+    $("#worktitle12").toggle();
+  });
+  $("#img13").hover(function(){
+    $(".work").not("#work13").toggle();
+    $(".work").toggleClass("bgwhite");
+    $("#worktitle13").toggle();
+  });
+  $("#img14").hover(function(){
+    $(".work").not("#work14").toggle();
+    $(".work").toggleClass("bgwhite");
+    $("#worktitle14").toggle();
+  });
+  $("#img15").hover(function(){
+    $(".work").not("#work15").toggle();
+    $(".work").toggleClass("bgwhite");
+    $("#worktitle15").toggle();
+  });
+  $("#img16").hover(function(){
+    $(".work").not("#work16").toggle();
+    $(".work").toggleClass("bgwhite");
+    $("#worktitle16").toggle();
+  });
+
+});

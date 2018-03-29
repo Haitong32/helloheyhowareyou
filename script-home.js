@@ -220,6 +220,21 @@ $("#video-6").hide();
                 });
               });  });
 
+              $(function() {
+                var inWrap15 = $('.inner-wrapper15');
+                $('#left15').on('click', function() {
+                  inWrap15.animate({left: '0%'}, 300, function(){
+                  inWrap15.css('left', '-100%');
+                $('.slide15').first().before($('.slide15').last());
+                  });
+                });
+                $('#right15').on('click', function() {
+                  inWrap15.animate({left: '-200%'}, 300, function(){
+                  inWrap15.css('left', '-100%');
+                $('.slide15').last().after($('.slide15').first());
+                  });
+                });  });
+
   // $(".right").on("click", function(){
   //   $("#img1-2").toggle();
   // });

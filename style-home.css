@@ -223,14 +223,15 @@ body {
 .container1, .container2, .container3,
 .container5, .container6, .container8,
 .container9,.container10, .container11,
-.container14 {
+.container14,.container15 {
   display: flex;
 }
 .slider-wrapper1, .slider-wrapper2,
 .slider-wrapper3, .slider-wrapper5,
 .slider-wrapper6, .slider-wrapper8,
 .slider-wrapper9, .slider-wrapper10,
-.slider-wrapper11,.slider-wrapper14{
+.slider-wrapper11,.slider-wrapper14,
+.slider-wrapper15{
   width: 100%;
   overflow: hidden;
 }
@@ -238,7 +239,8 @@ body {
 .inner-wrapper3, .inner-wrapper5,
 .inner-wrapper6, .inner-wrapper8,
 .inner-wrapper9, .inner-wrapper10,
-.inner-wrapper11, .inner-wrapper14{
+.inner-wrapper11, .inner-wrapper14,
+.inner-wrapper15{
   width: 500%;
   height: 100%;
   position: relative;
@@ -247,7 +249,7 @@ body {
 
 .slide1, .slide2, .slide3, .slide5,
 .slide6, .slide8, .slide9, .slide10,
-.slide11,.slide14 {
+.slide11,.slide14,.slide15 {
   width: calc(100% / 5);
   float: left;
   display: flex;
