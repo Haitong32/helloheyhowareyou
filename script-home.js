@@ -54,6 +54,20 @@ $("#video-6").hide();
        ev.preventDefault();
       });
 
+      $(function() {
+        var inWrap0 = $('.inner-wrapper0');
+        $('#left0').on('click', function() {
+          inWrap0.animate({left: '0%'}, 300, function(){
+          inWrap0.css('left', '-100%');
+        $('.slide0').first().before($('.slide0').last());
+          });
+        });
+        $('#right0').on('click', function() {
+          inWrap0.animate({left: '-200%'}, 300, function(){
+          inWrap0.css('left', '-100%');
+        $('.slide0').last().after($('.slide0').first());
+          });
+        }); });
 
       $(function() {
         var inWrap1 = $('.inner-wrapper1');

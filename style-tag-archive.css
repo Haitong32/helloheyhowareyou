@@ -192,17 +192,20 @@ img{
 }
 
 
-#work2, #work7,#work12{
+#work1, #work7,#work11{
   transform:translateX(16.66%);
 }
-#work3, #work8, #work13{
+#work2, #work6, #work12{
   transform:translateX(33.33%);
 }
-#work9, #work14{
+#work3, #work9, #work13{
   transform:translateX(50%);
 }
-#work5,#work4,#work10{
+#work4,#work8,#work19{
   transform:translateX(67.66%);
+}
+#work4{
+    transform:translateX(86%);
 }
 
 

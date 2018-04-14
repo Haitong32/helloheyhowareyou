@@ -9,6 +9,11 @@ $( "#gif2" ).click(function() {
 $( "#gif1" ).click(function() {
     $('body').toggleClass('bgimg');
   });
+  $("#img0").hover(function(){
+    $(".work").not("#work0").toggle();
+    $(".work").toggleClass("bgwhite")
+    $("#worktitle0").toggle();
+  });
   $("#img1").hover(function(){
     $(".work").not("#work1").toggle();
     $(".work").toggleClass("bgwhite")
