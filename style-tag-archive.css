@@ -53,6 +53,7 @@ font-family: 'Roboto', sans-serif;
 /* .topbar */
 
 .topbar a{
+  font-family: 'SportingGrotesque-Bold', sans-serif;
   font-weight: 700;
   font-size: 200%;
   text-decoration: none;
@@ -63,31 +64,38 @@ font-family: 'Roboto', sans-serif;
 }
 
 #haitong{
-  border-bottom: 4px solid #0000ff;
+  border-bottom: 5px solid #0000ff;
+  height: 7%;
 }
 #haitong:hover{
-  border-bottom: 4px solid red;
+  border-bottom: 5px solid red;
 }
 
 .topbar a:hover{
-  border-bottom: 4px solid red;
+  border-bottom: 5px solid red;
   cursor:pointer;
 }
 #home{
   margin-left: 25%;
+  height: 7%;
 }
 #trip{
+  height: 7%;
   background-color: black;
   color:white;
+}
+.gifs{
+  margin-left: 2%;
 }
 .gifs img{
   float: left;
 }
 #gif1{
-    width: 1em;
+    margin-left: 5%;
+    width: 1.2em;
 }
 #gif2{
-    width: 1em;
+    width: 1.2em;
 }
 .gifs a:hover{
   border: none;
@@ -106,25 +114,28 @@ filter: drop-shadow(0px 0px 3px blue);
 
 
 .worktitle{
+  font-family: 'SportingGrotesque-Regular', sans-serif;
   color:black;
   font-weight: 400;
-  font-size:300%;
+  font-size:280%;
   margin-top: 2%;
   width: 83.33%;
 }
 .year{
+  font-family: 'SportingGrotesque-Regular', sans-serif;
   color:blue;
   font-weight: 400;
-  font-size:120%;
-  margin-bottom: 1%;
+  font-size:150%;
+  margin-top: 2%;
   width: 16.66%;
-  transform: translateY(2%);
+  margin-bottom: 4%;
+  transform: translateY(-50%);
 }
 
 
 #tags a{
-  font-weight: 400;
-  font-size: 120%;
+  font-family: 'SportingGrotesque-Regular', sans-serif;
+  font-size: 100%;
   text-decoration: none;
   color:black;
   z-index: 499;
@@ -132,7 +143,7 @@ filter: drop-shadow(0px 0px 3px blue);
   float: left;
 }
 #tags a:hover{
-  font-size: 130%;
+  font-size: 110%;
   font-weight: 500;
   cursor: pointer;
   color:blue;
@@ -142,14 +153,14 @@ filter: drop-shadow(0px 0px 3px blue);
   width: 12%;
   margin-left:87.5%;
   position: fixed;
-  margin-top: 34%;
+  margin-top: 35%;
   background-color: white;
   padding-right: 15%;
 }
 .taglist:hover{
-  margin-left:87.5%;
+  margin-left:86.5%;
   position: fixed;
-  margin-top: 34%;
+  margin-top: 35%;
 }
 .taglist li{
   list-style: none;
@@ -159,6 +170,7 @@ filter: drop-shadow(0px 0px 3px blue);
   width:1.8em;
 }
 
+
 .photofeed{
   padding-left: 2%;
   padding-right: 2%;
@@ -166,7 +178,7 @@ filter: drop-shadow(0px 0px 3px blue);
   overflow:hidden;
   width:91.66%;
   height:2000px;
-  transform:translateY(2%);
+  transform:translateY(1%);
 }
 
 body {
@@ -181,6 +193,7 @@ body {
 
 }
 .row1,.row2,.row3,.row4{
+    transform:translateY(-20%);
   height:11%;
   width: 91.66%;
   display: inline-block;

@@ -4,13 +4,14 @@
   padding: 0;
   box-sizing:border-box;
 }
+@font-face {
+    font-family: SportingGrotesque-Regular;
+    src: url("type/SportingGrotesque-Regular.otf") format("opentype");
+    font-family: SportingGrotesque-Bold;
+    src: url("type/SportingGrotesque-Bold.otf") format("opentype");
+}
 body{
 font-family: 'Roboto', sans-serif;
-background-color: #E5E5E5;
-font-family: 'Montserrat', sans-serif;
-color: #333;
-height: 94vh;
-position: relative;
 }
 
 @media screen {
@@ -39,7 +40,7 @@ position: relative;
   width:100%;
   background-color: white;
   position:fixed;
-  margin-top: -3.5%;
+  margin-top: -5%;
   z-index: 499;
 }
 #chinesediv{
@@ -56,42 +57,51 @@ position: relative;
 }
 
 /* .topbar */
+
 .topbar a{
+  font-family: 'SportingGrotesque-Bold', sans-serif;
   font-weight: 700;
   font-size: 200%;
   text-decoration: none;
   color:black;
   position: fixed;
   z-index: 500;
-  transform: translateY(-18%);
+  transform: translateY(-70%);
 }
 
 #haitong{
-  border-bottom: 4px solid #0000ff;
+  border-bottom: 5px solid #0000ff;
+  height: 7%;
 }
 #haitong:hover{
-  border-bottom: 4px solid red;
+  border-bottom: 5px solid red;
 }
 
 .topbar a:hover{
-  border-bottom: 4px solid red;
+  border-bottom: 5px solid red;
   cursor:pointer;
 }
 #home{
   margin-left: 25%;
+  height: 7%;
 }
 #trip{
+  height: 7%;
   background-color: black;
   color:white;
+}
+.gifs{
+  margin-left: 2%;
 }
 .gifs img{
   float: left;
 }
 #gif1{
-    width: 1em;
+    margin-left: 5%;
+    width: 1.2em;
 }
 #gif2{
-    width: 1em;
+    width: 1.2em;
 }
 .gifs a:hover{
   border: none;
@@ -100,40 +110,25 @@ position: relative;
 -webkit-filter: drop-shadow(0px 0px 3px blue);
 filter: drop-shadow(0px 0px 3px blue);
 }
-#headimg{
-  width:100%;
-  margin-top: -2%;
-  height: 100%;
-  padding-bottom: 0;
-}
 
 
-
-
-
-.workinfo{
-  font-weight: 400;
-  font-size:300%;
-  width: 83.33%;
-  margin-bottom: 10%;
-  display: inline-block;
-}
 
 .worktitle{
+  font-family: 'SportingGrotesque-Regular', sans-serif;
   color:black;
   font-weight: 400;
-  font-size:300%;
+  font-size:100%;
   margin-top: 2%;
   width: 83.33%;
+  color: white;
 }
-
 
 
 
 
 #tags a{
-  font-weight: 400;
-  font-size: 120%;
+  font-family: 'SportingGrotesque-Regular', sans-serif;
+  font-size: 100%;
   text-decoration: none;
   color:black;
   z-index: 499;
@@ -141,7 +136,7 @@ filter: drop-shadow(0px 0px 3px blue);
   float: left;
 }
 #tags a:hover{
-  font-size: 130%;
+  font-size: 110%;
   font-weight: 500;
   cursor: pointer;
   color:blue;
@@ -151,14 +146,14 @@ filter: drop-shadow(0px 0px 3px blue);
   width: 12%;
   margin-left:87.5%;
   position: fixed;
-  margin-top: 34%;
+  margin-top: 35%;
   background-color: white;
   padding-right: 15%;
 }
 .taglist:hover{
-  margin-left:87.5%;
+  margin-left:86.5%;
   position: fixed;
-  margin-top: 34%;
+  margin-top: 35%;
 }
 .taglist li{
   list-style: none;
@@ -168,6 +163,9 @@ filter: drop-shadow(0px 0px 3px blue);
   width:1.8em;
 }
 
+
+
+
 .photofeed{
   padding-left: 8.33%;
   padding-right: 2%;
@@ -176,23 +174,32 @@ filter: drop-shadow(0px 0px 3px blue);
 .home-photo{
  float:left;
  width:75%;
- margin-bottom: 1.5%;
-}
-.about{
-  color:black;
-  font-weight: 400;
-  font-size:300%;
-  margin-top: 2%;
-  width: 83.33%;
-  margin-bottom: 8%;
-  transform: translateY(5%);
-  display: inline-block;
-}
-#aboutImg{
-  margin-top: 5%;
+ margin-bottom: 5%;
+ height: 95%;
 }
 
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+  height: 94vh;
+  position: relative;
+}
+
+.about{
+  font-weight: 400;
+  font-size:250%;
+  width: 83.33%;
+  margin-bottom: 10%;
+  display: inline-block;
+  margin-top: 2%;
+  margin-bottom: 8%;
+  transform: translateY(5%);
+}
+
+
 .intro{
+  transform: translateY(-30%);
   font-weight: 600;
   font-size: 120%;
   color:black;
@@ -207,33 +214,3 @@ filter: drop-shadow(0px 0px 3px blue);
   color:red;
   cursor: pointer;
 }
-
-
-/* @media screen and (max-width: 500px){
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
-.photofeed{
-    width: 91.66%;
-    display: flex;
-    flex-wrap: wrap;
-}
-.work{
-    width: 91.66%;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-[class*="col-"] {
-    display: inline-block;
-} */
