@@ -55,6 +55,21 @@ $("#video-6").hide();
       });
 
       $(function() {
+        var inWrap00 = $('.inner-wrapper00');
+        $('#left00').on('click', function() {
+          inWrap00.animate({left: '0%'}, 300, function(){
+          inWrap00.css('left', '-100%');
+        $('.slide00').first().before($('.slide0').last());
+          });
+        });
+        $('#right00').on('click', function() {
+          inWrap00.animate({left: '-200%'}, 300, function(){
+          inWrap00.css('left', '-100%');
+        $('.slide00').last().after($('.slide00').first());
+          });
+        }); });
+
+      $(function() {
         var inWrap0 = $('.inner-wrapper0');
         $('#left0').on('click', function() {
           inWrap0.animate({left: '0%'}, 300, function(){
